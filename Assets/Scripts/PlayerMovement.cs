@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float maxSpeed = 65.0f;
+    public float maxSpeed = 50.0f;
 
     Rigidbody2D rb;
+
+    Animator anim; 
     
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,5 +27,7 @@ public class PlayerMovement : MonoBehaviour
         currentVelocity = new Vector2(maxSpeed * hAxis, currentVelocity.y);
 
         rb.velocity = currentVelocity;
+
+        anim.SetFloat("AbsVelx", Mathf.Abs(currentVelocity.x));
     }
 }
