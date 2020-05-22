@@ -29,5 +29,14 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = currentVelocity;
 
         anim.SetFloat("AbsVelx", Mathf.Abs(currentVelocity.x));
+
+        if( Input.GetAxisRaw("Horizontal") < 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
+        else if (Input.GetAxisRaw("Horizontal") > 0)
+        {
+            transform.rotation = Quaternion.identity;
+        }
     }
 }
