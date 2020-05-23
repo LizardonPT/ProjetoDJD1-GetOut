@@ -121,6 +121,53 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &38405158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 38405159}
+  - component: {fileID: 38405161}
+  m_Layer: 0
+  m_Name: WallDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &38405159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38405158}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13, y: 17.1, z: -85.29804}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1743922017}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &38405161
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38405158}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2
 --- !u!1 &80372597
 GameObject:
   m_ObjectHideFlags: 0
@@ -3126,7 +3173,7 @@ GameObject:
   - component: {fileID: 1296539768}
   - component: {fileID: 1296539767}
   - component: {fileID: 1296539766}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3644,6 +3691,15 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: 16, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: -10, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -3653,11 +3709,29 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: 16, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: -10, y: -1, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 9
       m_TileSpriteIndex: 9
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 16, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3917,7 +3991,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: ca3f1f3256341d340a99d17d397495d7, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 1d62a0ac820ae7d47b55fdc50521fd80, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 2cb407573e318e1449041e328f60865a, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 78352c91f91ead3439076eaa3b5de4c0, type: 2}
@@ -3949,7 +4023,7 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: 6140725726363679846, guid: c261fa8d7170ffe4b9ad478a14cabeb8,
       type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 4
     m_Data: {fileID: -172126538591697200, guid: c261fa8d7170ffe4b9ad478a14cabeb8,
       type: 3}
   - m_RefCount: 1
@@ -3973,7 +4047,7 @@ Tilemap:
     m_Data: {fileID: 4152996384673590030, guid: c261fa8d7170ffe4b9ad478a14cabeb8,
       type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 78
+  - m_RefCount: 81
     m_Data:
       e00: 1
       e01: 0
@@ -3992,7 +4066,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 78
+  - m_RefCount: 81
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -4043,6 +4117,18 @@ CompositeCollider2D:
       - X: 2880000000
         Y: -800000000
       - X: 2880000000
+        Y: -480000000
+      - X: 2720000100
+        Y: -480000000
+      - X: 2720000100
+        Y: 41
+      - X: 2720000041
+        Y: 100
+      - X: 2559999959
+        Y: 100
+      - X: 2559999900
+        Y: 41
+      - X: 2559999900
         Y: -480000000
       - X: 1120000000
         Y: -480000000
@@ -4100,6 +4186,10 @@ CompositeCollider2D:
       - {x: 160.00003, y: -80}
       - {x: 288, y: -79.99997}
       - {x: 287.99997, y: -48}
+      - {x: 272, y: -47.999973}
+      - {x: 271.99997, y: 0.00001}
+      - {x: 256, y: -0.0000252}
+      - {x: 255.99995, y: -48}
       - {x: 112, y: -48.00012}
       - {x: 112.000015, y: -79.00001}
       - {x: 112.99991, y: -80}
@@ -4175,10 +4265,10 @@ GameObject:
   - component: {fileID: 1743922016}
   - component: {fileID: 1743922018}
   - component: {fileID: 1743922019}
-  - component: {fileID: 1743922020}
   - component: {fileID: 1743922021}
+  - component: {fileID: 1743922020}
   m_Layer: 0
-  m_Name: Enemi_Gardener
+  m_Name: EnemiGardener
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4245,7 +4335,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 131.3, y: -47.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 38405159}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4295,10 +4386,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1743922015}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cbecff1b0cd3e34c8135bc031575697, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ed5e7958b3b0c342b16cc1e9c6e3d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 50
+  moveSpeed: 65
+  wallDetector: {fileID: 38405159}
+  detectionRadius: 3
+  wallLayers:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!95 &1743922021
 Animator:
   serializedVersion: 3
