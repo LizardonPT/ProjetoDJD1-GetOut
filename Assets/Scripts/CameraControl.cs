@@ -14,7 +14,12 @@ public class CameraControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Vector3 targetPosition = followTarget.position + offset;
+        targetPosition.z = transform.position.z;
+
+        Vector3 delta = targetPosition - transform.position;
+
+        transform.position = transform.position + delta * feedbackLoopFactor;
     }
 
     // Update is called once per frame

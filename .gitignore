@@ -432,4 +432,8 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
 
+##Aseprite
+
+*.aseprite
+
 Temp/*
