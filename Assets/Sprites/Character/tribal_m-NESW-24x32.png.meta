@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: 59bcaeb984d100044bec30ada01f57a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8626512127464476723
+    second: tribal_m-NESW-24x32_0
+  - first:
+      213: -3993741698001020152
+    second: tribal_m-NESW-24x32_1
+  - first:
+      213: 598856552628747162
+    second: tribal_m-NESW-24x32_2
+  - first:
+      213: 8825438198665612954
+    second: tribal_m-NESW-24x32_3
+  - first:
+      213: 3795487476997197366
+    second: tribal_m-NESW-24x32_4
+  - first:
+      213: -3837542300826065107
+    second: tribal_m-NESW-24x32_5
+  - first:
+      213: 1794732548282893778
+    second: tribal_m-NESW-24x32_6
+  - first:
+      213: -8346524066310262898
+    second: tribal_m-NESW-24x32_7
+  - first:
+      213: -3201869413087777909
+    second: tribal_m-NESW-24x32_8
+  - first:
+      213: 2411952263469648691
+    second: tribal_m-NESW-24x32_9
+  - first:
+      213: 2936946784574480288
+    second: tribal_m-NESW-24x32_10
+  - first:
+      213: -7638594521728498705
+    second: tribal_m-NESW-24x32_11
+  - first:
+      213: -247439964195233953
+    second: tribal_m-NESW-24x32_0
+  - first:
+      213: 6696178067453226362
+    second: tribal_m-NESW-24x32_1
+  - first:
+      213: -5990361435033093757
+    second: tribal_m-NESW-24x32_2
+  - first:
+      213: -7463734782981400110
+    second: tribal_m-NESW-24x32_3
+  - first:
+      213: -669933183152837974
+    second: tribal_m-NESW-24x32_4
+  - first:
+      213: 7395108619604261296
+    second: tribal_m-NESW-24x32_5
+  - first:
+      213: -3508197449945216502
+    second: tribal_m-NESW-24x32_6
+  - first:
+      213: -4361607714513874131
+    second: tribal_m-NESW-24x32_7
+  - first:
+      213: 680383618866001138
+    second: tribal_m-NESW-24x32_8
+  - first:
+      213: 4360159252446236959
+    second: tribal_m-NESW-24x32_9
+  - first:
+      213: -8682798888806185274
+    second: tribal_m-NESW-24x32_10
+  - first:
+      213: -7913144129262388176
+    second: tribal_m-NESW-24x32_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f58eed9aae09cf0800000000000000
+      internalID: -247439964195233953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7daf47797a9dec50800000000000000
+      internalID: 6696178067453226362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38937ac5306fddca0800000000000000
+      internalID: -5990361435033093757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d99aaa62cc7b6890800000000000000
+      internalID: -7463734782981400110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 64
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaade2c15be3b6f0800000000000000
+      internalID: -669933183152837974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9f0facb14b0a660800000000000000
+      internalID: 7395108619604261296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a851aa101605fc0800000000000000
+      internalID: -3508197449945216502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d231cc674e47873c0800000000000000
+      internalID: -4361607714513874131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4b089eb45317900800000000000000
+      internalID: 680383618866001138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11d03e2db5628c30800000000000000
+      internalID: 4360159252446236959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c60d800a60808780800000000000000
+      internalID: -8682798888806185274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tribal_m-NESW-24x32_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cf8de075dde2290800000000000000
+      internalID: -7913144129262388176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
