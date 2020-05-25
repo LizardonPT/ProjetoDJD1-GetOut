@@ -30,13 +30,24 @@ public class PlayerMovement : MonoBehaviour
 
         anim.SetFloat("AbsVelx", Mathf.Abs(currentVelocity.x));
 
-        if( Input.GetAxisRaw("Horizontal") < 0)
+        //Changes walking/runing directions
+        if (Input.GetAxisRaw("Horizontal") < 0)
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         else if (Input.GetAxisRaw("Horizontal") > 0)
         {
             transform.rotation = Quaternion.identity;
+        }
+
+        //Run
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            maxSpeed = 80.0f;
+        }
+        else
+        {
+            maxSpeed = 50.0f;
         }
     }
 }
