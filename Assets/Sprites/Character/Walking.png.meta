@@ -1,79 +1,58 @@
 fileFormatVersion: 2
-guid: 59bcaeb984d100044bec30ada01f57a0
+guid: 0b902206b8cb0d04face7cafde2ff566
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8626512127464476723
-    second: tribal_m-NESW-24x32_0
+      213: 3577252072171977909
+    second: Walking_0
   - first:
-      213: -3993741698001020152
-    second: tribal_m-NESW-24x32_1
+      213: -8287159642771018103
+    second: Walking_1
   - first:
-      213: 598856552628747162
-    second: tribal_m-NESW-24x32_2
+      213: -899620374153902453
+    second: Walking_2
   - first:
-      213: 8825438198665612954
-    second: tribal_m-NESW-24x32_3
+      213: -1539013491861331121
+    second: Walking_3
   - first:
-      213: 3795487476997197366
-    second: tribal_m-NESW-24x32_4
+      213: -6138027735779490592
+    second: Walking_4
   - first:
-      213: -3837542300826065107
-    second: tribal_m-NESW-24x32_5
+      213: -434167352627357646
+    second: Walking_5
   - first:
-      213: 1794732548282893778
-    second: tribal_m-NESW-24x32_6
+      213: -4973530997829974419
+    second: Walking_6
   - first:
-      213: -8346524066310262898
-    second: tribal_m-NESW-24x32_7
+      213: 9001918012945569453
+    second: Walking_7
   - first:
-      213: -3201869413087777909
-    second: tribal_m-NESW-24x32_8
+      213: 2041868273384794170
+    second: Walking_8
   - first:
-      213: 2411952263469648691
-    second: tribal_m-NESW-24x32_9
+      213: -6439067161863970206
+    second: Walking_9
   - first:
-      213: 2936946784574480288
-    second: tribal_m-NESW-24x32_10
+      213: 1910701125635488597
+    second: Walking_10
   - first:
-      213: -7638594521728498705
-    second: tribal_m-NESW-24x32_11
+      213: 4449171930880444311
+    second: Walking_11
   - first:
-      213: -247439964195233953
-    second: tribal_m-NESW-24x32_0
+      213: 6229320838642083251
+    second: Walking_12
   - first:
-      213: 6696178067453226362
-    second: tribal_m-NESW-24x32_1
+      213: -3727337347985793157
+    second: Walking_13
   - first:
-      213: -5990361435033093757
-    second: tribal_m-NESW-24x32_2
+      213: 1593165366698692481
+    second: Walking_14
   - first:
-      213: -7463734782981400110
-    second: tribal_m-NESW-24x32_3
+      213: 4877389142272450249
+    second: Walking_15
   - first:
-      213: -669933183152837974
-    second: tribal_m-NESW-24x32_4
-  - first:
-      213: 7395108619604261296
-    second: tribal_m-NESW-24x32_5
-  - first:
-      213: -3508197449945216502
-    second: tribal_m-NESW-24x32_6
-  - first:
-      213: -4361607714513874131
-    second: tribal_m-NESW-24x32_7
-  - first:
-      213: 680383618866001138
-    second: tribal_m-NESW-24x32_8
-  - first:
-      213: 4360159252446236959
-    second: tribal_m-NESW-24x32_9
-  - first:
-      213: -8682798888806185274
-    second: tribal_m-NESW-24x32_10
-  - first:
-      213: -7913144129262388176
-    second: tribal_m-NESW-24x32_11
+      213: 6379357493069541019
+    second: Walking_16
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -158,12 +137,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tribal_m-NESW-24x32_0
+      name: Walking_0
       rect:
         serializedVersion: 2
         x: 0
         y: 96
-        width: 24
+        width: 16
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -172,19 +151,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5f58eed9aae09cf0800000000000000
-      internalID: -247439964195233953
+      spriteID: 5bc37d97ec3f4a130800000000000000
+      internalID: 3577252072171977909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tribal_m-NESW-24x32_1
+      name: Walking_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 16
         y: 96
-        width: 24
+        width: 16
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -193,19 +172,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7daf47797a9dec50800000000000000
-      internalID: 6696178067453226362
+      spriteID: 98e2eaf46381efc80800000000000000
+      internalID: -8287159642771018103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tribal_m-NESW-24x32_2
+      name: Walking_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b864add3908e383f0800000000000000
+      internalID: -899620374153902453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking_3
       rect:
         serializedVersion: 2
         x: 48
         y: 96
-        width: 24
+        width: 16
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -214,19 +214,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38937ac5306fddca0800000000000000
-      internalID: -5990361435033093757
+      spriteID: f436219126354aae0800000000000000
+      internalID: -1539013491861331121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tribal_m-NESW-24x32_3
+      name: Walking_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e44e538b4851daa0800000000000000
+      internalID: -6138027735779490592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking_5
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 24
+        width: 16
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -235,19 +256,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d99aaa62cc7b6890800000000000000
-      internalID: -7463734782981400110
+      spriteID: 2381395d71789f9f0800000000000000
+      internalID: -434167352627357646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tribal_m-NESW-24x32_4
+      name: Walking_6
       rect:
         serializedVersion: 2
-        x: 24
+        x: 16
         y: 64
-        width: 24
+        width: 16
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -256,19 +277,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaaade2c15be3b6f0800000000000000
-      internalID: -669933183152837974
+      spriteID: d6643fa88e77afab0800000000000000
+      internalID: -4973530997829974419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tribal_m-NESW-24x32_5
+      name: Walking_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da69fc21dbc3dec70800000000000000
+      internalID: 9001918012945569453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking_8
       rect:
         serializedVersion: 2
         x: 48
         y: 64
-        width: 24
+        width: 16
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -277,19 +319,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b9f0facb14b0a660800000000000000
-      internalID: 7395108619604261296
+      spriteID: a38ad39506c265c10800000000000000
+      internalID: 2041868273384794170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tribal_m-NESW-24x32_6
+      name: Walking_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262273c2886d3a6a0800000000000000
+      internalID: -6439067161863970206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking_10
       rect:
         serializedVersion: 2
         x: 0
         y: 32
-        width: 24
+        width: 16
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -298,19 +361,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0a851aa101605fc0800000000000000
-      internalID: -3508197449945216502
+      spriteID: 55b3179ec8c248a10800000000000000
+      internalID: 1910701125635488597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tribal_m-NESW-24x32_7
+      name: Walking_11
       rect:
         serializedVersion: 2
-        x: 24
+        x: 16
         y: 32
-        width: 24
+        width: 16
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -319,19 +382,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d231cc674e47873c0800000000000000
-      internalID: -4361607714513874131
+      spriteID: 79784c46c42aebd30800000000000000
+      internalID: 4449171930880444311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tribal_m-NESW-24x32_8
+      name: Walking_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b523336c4ef27650800000000000000
+      internalID: 6229320838642083251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking_13
       rect:
         serializedVersion: 2
         x: 48
         y: 32
-        width: 24
+        width: 16
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -340,19 +424,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f4b089eb45317900800000000000000
-      internalID: 680383618866001138
+      spriteID: b7f92472e66d54cc0800000000000000
+      internalID: -3727337347985793157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tribal_m-NESW-24x32_9
+      name: Walking_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fc786c57f0c1610800000000000000
+      internalID: 1593165366698692481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking_15
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 24
+        width: 16
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -361,19 +466,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f11d03e2db5628c30800000000000000
-      internalID: 4360159252446236959
+      spriteID: 9ce1f785597ffa340800000000000000
+      internalID: 4877389142272450249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tribal_m-NESW-24x32_10
+      name: Walking_16
       rect:
         serializedVersion: 2
-        x: 24
+        x: 16
         y: 0
-        width: 24
+        width: 16
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -382,29 +487,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c60d800a60808780800000000000000
-      internalID: -8682798888806185274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tribal_m-NESW-24x32_11
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 24
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03cf8de075dde2290800000000000000
-      internalID: -7913144129262388176
+      spriteID: b9ee2a537d7088850800000000000000
+      internalID: 6379357493069541019
       vertices: []
       indices: 
       edges: []
