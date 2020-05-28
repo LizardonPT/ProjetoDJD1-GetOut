@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 95b8764558c0b9046872f7c4b9bc5b68
+guid: a0466179a5413254bb05b69744b4b9ae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4193726631227913137
-    second: Railing_0
+      213: 8134706293416479942
+    second: Escadas._0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -89,22 +89,26 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Railing_0
+      name: Escadas._0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 80
-        height: 48
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
-      spriteID: 1b37f6bd62c133a30800000000000000
-      internalID: 4193726631227913137
+      spriteID: 6cc493b364844e070800000000000000
+      internalID: 8134706293416479942
       vertices: []
       indices: 
       edges: []
