@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
         //Run
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            maxSpeed = 80.0f;
+            maxSpeed = 90.0f;
         }
         else
         {
