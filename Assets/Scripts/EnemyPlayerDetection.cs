@@ -9,24 +9,20 @@ public class EnemyPlayerDetection : MonoBehaviour
 
     public GameObject      Player;
     
-    void Start()
-    {
 
-    }
-    // Update is called once per frame
     void Update()
     {
         Vector2 rBPosition = transform.position;
         Vector2 playerPosition = Player.transform.position;
         Vector2 currentDirection = ( playerPosition - rBPosition );
-        RaycastHit2D hit = Physics2D.Raycast(rBPosition, currentDirection.normalized,currentDirection.magnitude, visionLayer);
-        if(hit == null )
+        var hit = Physics2D.Raycast(rBPosition, currentDirection.normalized,currentDirection.magnitude, visionLayer);
+        if(hit == true )
         {
-            Debug.Log("this is hitting something");
+            Debug.Log("this CAN´t SEE");
         }
         else
         {
-            Debug.Log("GOD BLESS U");
+            Debug.Log("u can see");
         }
         
     }
