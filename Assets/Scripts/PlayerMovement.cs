@@ -5,6 +5,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float maxSpeed = 50.0f;
+    public float climbingSpeed = 40.0f;
+    public float vertDistance = 10.0f;
+    public LayerMask whatIsLadder;
+    private float inputVertical;
 
     Rigidbody2D rb;
 
@@ -43,11 +47,58 @@ public class PlayerMovement : MonoBehaviour
         //Run
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            maxSpeed = 80.0f;
+            maxSpeed = 90.0f;
         }
         else
         {
             maxSpeed = 50.0f;
+        }
+
+        //To climb the ladder
+
+        RaycastHit2D hitInfoUp = Physics2D.Raycast(transform.position, Vector2.up, vertDistance, whatIsLadder);
+
+        if(hitInfoUp.collider != null)
+        {
+            if(Input.GetKey(KeyCode.W))
+            {
+                inputVertical = Input.GetAxisRaw("Vertical");
+                rb.velocity = new Vector2(rb.velocity.x, inputVertical * climbingSpeed);
+                rb.gravityScale = 0;
+                
+            }
+            else
+            {
+                currentVelocity.y = 0;
+                
+            }
+        }
+        else
+        {
+            rb.gravityScale = 1;
+        }
+
+        RaycastHit2D hitInfoDown = Physics2D.Raycast(transform.position, Vector2.down, vertDistance, whatIsLadder);
+
+        if (hitInfoDown.collider != null)
+        {
+            if (Input.GetKey(KeyCode.S))
+            {
+                inputVertical = Input.GetAxisRaw("Vertical");
+                rb.velocity = new Vector2(rb.velocity.x, inputVertical * climbingSpeed);
+                rb.gravityScale = 0;
+                
+            }
+            else
+            {
+                currentVelocity.y = 0;
+                
+            }
+            
+        }
+        else
+        {
+            rb.gravityScale = 1;
         }
     }
 }
