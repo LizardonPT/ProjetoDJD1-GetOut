@@ -65,6 +65,8 @@
   <ItemGroup>
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\Scripts\CameraControl.cs" />
+    <Compile Include="Assets\Scripts\EnemyPlayerDetection.cs" />
+    <Compile Include="Assets\Scripts\EnemyWalk.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\Ladder.cs" />
     <Compile Include="Assets\Scripts\PickUp.cs" />
