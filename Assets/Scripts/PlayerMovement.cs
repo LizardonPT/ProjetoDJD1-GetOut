@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float vertDistance = 10.0f;
     public LayerMask whatIsLadder;
     private float inputVertical;
+    private bool LaderCheck;
 
     Rigidbody2D rb;
 
@@ -33,6 +35,10 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = currentVelocity;
 
         anim.SetFloat("AbsVelx", Mathf.Abs(currentVelocity.x));
+
+        anim.SetFloat("AbsVely", (currentVelocity.y));
+
+        anim.SetBool("LaderCheck", LaderCheck);
 
         //Changes walking/runing directions
         if (Input.GetAxisRaw("Horizontal") < 0)
@@ -60,12 +66,13 @@ public class PlayerMovement : MonoBehaviour
 
         if(hitInfoUp.collider != null)
         {
-            if(Input.GetKey(KeyCode.W))
+            LaderCheck = true;
+            if (Input.GetKey(KeyCode.W))
             {
                 inputVertical = Input.GetAxisRaw("Vertical");
                 rb.velocity = new Vector2(rb.velocity.x, inputVertical * climbingSpeed);
                 rb.gravityScale = 0;
-                
+
             }
             else
             {
@@ -76,18 +83,23 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             rb.gravityScale = 1;
+            LaderCheck = false;
+
         }
 
         RaycastHit2D hitInfoDown = Physics2D.Raycast(transform.position, Vector2.down, vertDistance, whatIsLadder);
 
         if (hitInfoDown.collider != null)
         {
+            LaderCheck = true;
             if (Input.GetKey(KeyCode.S))
             {
                 inputVertical = Input.GetAxisRaw("Vertical");
                 rb.velocity = new Vector2(rb.velocity.x, inputVertical * climbingSpeed);
                 rb.gravityScale = 0;
-                
+
+
+
             }
             else
             {
@@ -99,6 +111,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             rb.gravityScale = 1;
+            LaderCheck = false;
         }
     }
 }
