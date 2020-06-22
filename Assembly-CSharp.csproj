@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\Ladder.cs" />
     <Compile Include="Assets\Scripts\LanternLight.cs" />
+    <Compile Include="Assets\Scripts\LighterLight.cs" />
     <Compile Include="Assets\Scripts\PickUp.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

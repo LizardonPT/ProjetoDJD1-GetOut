@@ -1,29 +1,25 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental;
 using UnityEngine;
-using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.Experimental.Rendering.Universal;
 
-public class LanternLight : MonoBehaviour
+public class LighterLight : MonoBehaviour
 {
     public GameObject theObject;
     bool lighton = false;
-    Light2D lantern;
-    
-    
+    Light2D lighter;
+
     // Start is called before the first frame update
     void Start()
     {
-        theObject = GameObject.Find("LanternLight");
-        lantern = theObject.GetComponent<Light2D>();
+        theObject = GameObject.Find("LighterLight");
+        lighter = theObject.GetComponent<Light2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
 
     public void Use()
@@ -31,12 +27,12 @@ public class LanternLight : MonoBehaviour
         if (lighton == false)
         {
             lighton = true;
-            lantern.enabled = true;
+            lighter.enabled = true;
         }
         else
         {
             lighton = false;
-            lantern.enabled = false;
+            lighter.enabled = false;
         }
     }
 }
