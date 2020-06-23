@@ -8,6 +8,8 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class LanternLight : MonoBehaviour
 {
+    public AudioClip onSound;
+    public AudioClip offSound;
     public GameObject theObject;
     bool lighton = false;
     Light2D lantern;
@@ -30,13 +32,19 @@ public class LanternLight : MonoBehaviour
     {
         if (lighton == false)
         {
+            //SoundMng.instance.PlaySound(onSound);
+            //FindObjectOfType<SoundMng>().PlaySound("LanternON");
             lighton = true;
             lantern.enabled = true;
+            SoundMng.instance.PlaySound(onSound);
+            //FindObjectOfType<SoundMng>().PlaySound("LightsOn");
         }
         else
         {
+            //SoundMng.instance.PlaySound(offSound);
             lighton = false;
             lantern.enabled = false;
+            SoundMng.instance.PlaySound(offSound);
         }
     }
 }

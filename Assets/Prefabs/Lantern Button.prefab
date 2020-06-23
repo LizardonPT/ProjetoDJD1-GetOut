@@ -142,6 +142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c15e5abf2215240abbda6b352b6d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToDisable: {fileID: 6520070778597576529, guid: fabc4de6ffd390342aded52d09cbd71b,
-    type: 3}
-  lighton: 0
+  onSound: {fileID: 8300000, guid: 57958658f1e6c9045aa051c1f9f756fb, type: 3}
+  offSound: {fileID: 8300000, guid: 746cf9fe351913e4e8c31fbab9810bb4, type: 3}
+  theObject: {fileID: 0}
