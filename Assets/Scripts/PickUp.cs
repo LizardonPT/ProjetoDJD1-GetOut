@@ -7,7 +7,8 @@ public class PickUp : MonoBehaviour
 
     private Inventory inventory;
     public GameObject itemButton;
-    
+    public AudioClip pickUpSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class PickUp : MonoBehaviour
                     inventory.isFull[i] = true;
                     Instantiate(itemButton, inventory.slots[i].transform, false);
                     Destroy(gameObject);
+                    SoundMng.instance.PlaySound(pickUpSound, 2.0f);
                     break;
                 }
             }

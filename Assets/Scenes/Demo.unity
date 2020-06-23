@@ -4337,12 +4337,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40fed94fb1729e14caf7b76b03586650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sounds:
-  - name: LightsOn
-    clip: {fileID: 8300000, guid: 57958658f1e6c9045aa051c1f9f756fb, type: 3}
-    volume: 1
-    pitch: 0
-    source: {fileID: 0}
 --- !u!4 &1536720471
 Transform:
   m_ObjectHideFlags: 0
@@ -4516,6 +4510,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2273663741610726128, guid: f5ac767ac9a74854eaa42febfb8524d4,
         type: 3}
+    - target: {fileID: 4381470021339929969, guid: c8880f3d505f4914995c4f419b4af36e,
+        type: 3}
+      propertyPath: pickUpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 26217a06455fbf445ab5d2b48931b84b, type: 3}
     - target: {fileID: 4927891765473578281, guid: c8880f3d505f4914995c4f419b4af36e,
         type: 3}
       propertyPath: m_Name
@@ -4645,6 +4644,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6306357807265105337, guid: c50d9d6ae01d29546b961556fabcb929,
+        type: 3}
+      propertyPath: pickUpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 26217a06455fbf445ab5d2b48931b84b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c50d9d6ae01d29546b961556fabcb929, type: 3}
 --- !u!1001 &5915579758729668983
@@ -4813,5 +4817,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8805818635669377487, guid: c3738c09299c1244090bfdad10d9c5f7,
+        type: 3}
+      propertyPath: pickUpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 26217a06455fbf445ab5d2b48931b84b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3738c09299c1244090bfdad10d9c5f7, type: 3}

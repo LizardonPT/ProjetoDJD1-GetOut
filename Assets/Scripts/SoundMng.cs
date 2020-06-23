@@ -6,7 +6,7 @@ public class SoundMng : MonoBehaviour
 {
     static public SoundMng instance;
 
-    List<AudioSource> audioSources;
+    public List<AudioSource> audioSources;
 
     void Awake()
     {
@@ -35,8 +35,6 @@ public class SoundMng : MonoBehaviour
             {
                 return audio;
             }
-            else
-                return null;
 
         }
         GameObject gObject = new GameObject();

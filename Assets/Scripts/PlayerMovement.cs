@@ -45,24 +45,19 @@ public class PlayerMovement : MonoBehaviour
         //Changes walking/runing directions
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
-            if(moveSound)
-            {
-               SoundMng.instance.PlaySound(moveSound);
-            }
+            //SoundMng.instance.PlaySound(moveSound);
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         else if (Input.GetAxisRaw("Horizontal") > 0)
         {
-            if (moveSound)
-            {
-               SoundMng.instance.PlaySound(moveSound);
-            }
+            //SoundMng.instance.PlaySound(moveSound);
             transform.rotation = Quaternion.identity;
         }
 
         //Run
         if (Input.GetKey(KeyCode.LeftShift))
         {
+            SoundMng.instance.PlaySound(moveSound);
             maxSpeed = 90.0f;
         }
         else
