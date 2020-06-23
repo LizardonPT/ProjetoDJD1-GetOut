@@ -32,16 +32,12 @@ public class LanternLight : MonoBehaviour
     {
         if (lighton == false)
         {
-            //SoundMng.instance.PlaySound(onSound);
-            //FindObjectOfType<SoundMng>().PlaySound("LanternON");
             lighton = true;
             lantern.enabled = true;
             SoundMng.instance.PlaySound(onSound);
-            //FindObjectOfType<SoundMng>().PlaySound("LightsOn");
         }
         else
         {
-            //SoundMng.instance.PlaySound(offSound);
             lighton = false;
             lantern.enabled = false;
             SoundMng.instance.PlaySound(offSound);

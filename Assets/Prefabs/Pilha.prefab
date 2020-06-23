@@ -123,3 +123,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 7400618788225277982, guid: 351ad3dd231a4d445a56c5bf6f9b41a5,
     type: 3}
+  pickUpSound: {fileID: 8300000, guid: 26217a06455fbf445ab5d2b48931b84b, type: 3}

@@ -15,8 +15,6 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
 
     Animator anim;
-
-    public AudioClip moveSound;
     
     // Start is called before the first frame update
     void Start()
@@ -45,19 +43,16 @@ public class PlayerMovement : MonoBehaviour
         //Changes walking/runing directions
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
-            //SoundMng.instance.PlaySound(moveSound);
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         else if (Input.GetAxisRaw("Horizontal") > 0)
         {
-            //SoundMng.instance.PlaySound(moveSound);
             transform.rotation = Quaternion.identity;
         }
 
         //Run
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            SoundMng.instance.PlaySound(moveSound);
             maxSpeed = 90.0f;
         }
         else
