@@ -32,7 +32,7 @@ public class PickUp : MonoBehaviour
                     inventory.isFull[i] = true;
                     Instantiate(itemButton, inventory.slots[i].transform, false);
                     Destroy(gameObject);
-                    SoundMng.instance.PlaySound(pickUpSound, 2.0f);
+                    SoundMng.instance.PlaySound(pickUpSound, 0.2f);
                     break;
                 }
             }
