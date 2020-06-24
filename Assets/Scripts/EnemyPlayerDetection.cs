@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class EnemyPlayerDetection : MonoBehaviour
 {
-    public LayerMask        visionLayer;
+    public              LayerMask        visionLayer;
+    [SerializeField]    Transform pointStart;
 
 
     public GameObject      Player;
@@ -25,7 +26,7 @@ public class EnemyPlayerDetection : MonoBehaviour
         var hit = Physics2D.Raycast(rigidBody.position, currentDirection.normalized,distance, visionLayer);
 
         //if hits something between the player and the enemy prints can´t see else checks if the player is in the cone of vision os the enemy
-        if(hit == true )
+        if(hit.collider != null )
         {
                 Debug.Log("this CAN´t SEE");
                
@@ -36,10 +37,11 @@ public class EnemyPlayerDetection : MonoBehaviour
             Debug.Log(rigidBody.velocity);
             float viewAngle = Vector2.Dot(rigidBody.velocity.normalized, currentDirection.normalized);
             Debug.Log(viewAngle);
-            if (viewAngle > 0 || viewAngle == 0)
-            {
-                Debug.Log("u can see");
-            }
+            Debug.Log("u can see");
+            //if (viewAngle > 0 || viewAngle == 0)
+            //{
+            //    Debug.Log("u can see");
+            //}
         }
         
     }
