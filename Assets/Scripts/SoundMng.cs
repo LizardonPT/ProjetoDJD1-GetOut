@@ -6,7 +6,7 @@ public class SoundMng : MonoBehaviour
 {
     static public SoundMng instance;
 
-    public List<AudioSource> audioSources;
+    private List<AudioSource> audioSources;
 
     void Awake()
     {

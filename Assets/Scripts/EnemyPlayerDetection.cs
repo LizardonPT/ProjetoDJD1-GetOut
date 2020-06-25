@@ -4,45 +4,46 @@ using UnityEngine;
 
 public class EnemyPlayerDetection : MonoBehaviour
 {
-    public              LayerMask        visionLayer;
-    [SerializeField]    Transform pointStart;
+    [SerializeField]LayerMask   visionLayer;
+
+    [SerializeField]GameObject  player;
+    [SerializeField]GameObject  self;
+
+    Collider2D playerCol;
+    Collider2D enemyCol;
+    readonly EnemyWalk hunt;
 
 
-    public GameObject      Player;
 
-    Rigidbody2D rigidBody;
     private void Start()
     {
-        rigidBody = GetComponent<Rigidbody2D>();
+        playerCol = player.GetComponent<Collider2D>();
+        enemyCol = self.GetComponent<Collider2D>();
     }
     void Update()
     {
-        
-        Vector2 playerPosition = Player.transform.position;
-        Vector2 currentDirection = ( playerPosition - rigidBody.position );
+        Vector2 colCenter = playerCol.bounds.center;
+        Vector2 selfCenter = enemyCol.bounds.center;
+        //Vector2 playerPosition = colCenter;
+        //Vector2 wDPosition = WallDetector.transform.position;
+        //Debug.Log(wDPosition);
+        Vector2 currentDirection =  colCenter - selfCenter;
         float distance = currentDirection.magnitude;
 
         //if hits something between the player and the enemy comes true if not comes false
-        var hit = Physics2D.Raycast(rigidBody.position, currentDirection.normalized,distance, visionLayer);
+        var hit = Physics2D.Raycast(selfCenter, currentDirection.normalized,distance, visionLayer);
 
-        //if hits something between the player and the enemy prints can´t see else checks if the player is in the cone of vision os the enemy
-        if(hit.collider != null )
+        //if there are no obstacles between the enemy and the player 
+        if(hit.collider == null )
         {
-                Debug.Log("this CAN´t SEE");
-               
+            float viewAngle = Vector2.Dot(transform.right, currentDirection.normalized);
+            if ((viewAngle > 0 || viewAngle == 0) && distance <= 100)
+            {
+                Debug.Log("u can see");
+            }
+            else
+                Debug.Log("this CAN´t SEE V2");
+
         }
-        else
-        {
-            
-            Debug.Log(rigidBody.velocity);
-            float viewAngle = Vector2.Dot(rigidBody.velocity.normalized, currentDirection.normalized);
-            Debug.Log(viewAngle);
-            Debug.Log("u can see");
-            //if (viewAngle > 0 || viewAngle == 0)
-            //{
-            //    Debug.Log("u can see");
-            //}
-        }
-        
     }
 }

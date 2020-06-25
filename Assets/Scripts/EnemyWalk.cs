@@ -5,12 +5,13 @@ using UnityEngine;
 public class EnemyWalk : MonoBehaviour
 {
 
-    [SerializeField] float      moveSpeed = 65.0f;
-    [SerializeField] Transform  wallDetector = null;
-    [SerializeField] float      detectionRadius = 3.0f;
-    [SerializeField] LayerMask  wallLayers;
+    [SerializeField]    float       moveSpeed = 65.0f;
+    [SerializeField]    Transform   wallDetector = null;
+    [SerializeField]    float       detectionRadius = 3.0f;
+    [SerializeField]    LayerMask   wallLayers;
 
-    
+
+
     Rigidbody2D rigidBody;
     // Start is called before the first frame update
     void Start()
@@ -54,6 +55,13 @@ public class EnemyWalk : MonoBehaviour
         }
     }
 
+    public void Hunt(bool hunt)
+    {
+        if (hunt)
+            moveSpeed = 70;
+        else
+            moveSpeed = 65;
+    }
 
     void TurnBack()
     {
