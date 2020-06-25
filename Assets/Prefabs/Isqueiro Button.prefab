@@ -143,3 +143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theObject: {fileID: 0}
+  defaultOff: {fileID: 0}
+  lifeTime: 180
+  currentTime: 0

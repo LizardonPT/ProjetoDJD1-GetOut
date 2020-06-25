@@ -145,3 +145,5 @@ MonoBehaviour:
   onSound: {fileID: 8300000, guid: 57958658f1e6c9045aa051c1f9f756fb, type: 3}
   offSound: {fileID: 8300000, guid: 746cf9fe351913e4e8c31fbab9810bb4, type: 3}
   theObject: {fileID: 0}
+  lifeTime: 300
+  currentTime: 0
