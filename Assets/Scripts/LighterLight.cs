@@ -7,7 +7,7 @@ public class LighterLight : MonoBehaviour
 {
     public GameObject theObject;
     public GameObject defaultOff;
-    public float lifeTime = 120.0f;
+    public float lifeTime = 180.0f;
     public float currentTime;
     bool lighton = false;
     Light2D lighter;
