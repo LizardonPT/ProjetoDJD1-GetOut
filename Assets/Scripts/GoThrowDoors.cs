@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GoThrowDoors : MonoBehaviour
 {
-    public void OnCollisionStay2D(Collision2D collision)
+    public void OnTriggerStay2D(Collider2D collider)
     {
-        if(collision.collider.name == "Player")
+        if(collider.name == "Player")
         {
             Debug.Log("its touching");
             if(Input.GetKey(KeyCode.W))
@@ -19,6 +19,4 @@ public class GoThrowDoors : MonoBehaviour
             //SceneManager.LoadScene("Biblioteca");
         }
     }
-
-
 }
