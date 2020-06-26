@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: cf32171eb0fa28049a0651605108fdf7
+guid: dd3fa44d106b884438721b4919f9e305
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2517129459159921533
-    second: Gardener_0
+      213: 116627471526837988
+    second: GardenerHunting_0
   - first:
-      213: -9124735723609272068
-    second: Gardener_1
+      213: -965447734338155745
+    second: GardenerHunting_1
   - first:
-      213: -8065449706661588463
-    second: Gardener_2
+      213: -3165191263256529670
+    second: GardenerHunting_2
   - first:
-      213: -1147594318122131186
-    second: Gardener_3
+      213: -3254754729180570195
+    second: GardenerHunting_3
   - first:
-      213: -3077520325357811536
-    second: Gardener_4
+      213: -2185794164170991933
+    second: GardenerHunting_4
   - first:
-      213: 3454419552788999223
-    second: Gardener_5
+      213: 2453818994200497275
+    second: GardenerHunting_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gardener_0
+      name: GardenerHunting_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d73f5e228e3aee220800000000000000
-      internalID: 2517129459159921533
+      spriteID: 4eeb86341185e9100800000000000000
+      internalID: 116627471526837988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gardener_1
+      name: GardenerHunting_1
       rect:
         serializedVersion: 2
         x: 24
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf0d3fc443d6e5180800000000000000
-      internalID: -9124735723609272068
+      spriteID: f1b8199966a0a92f0800000000000000
+      internalID: -965447734338155745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gardener_2
+      name: GardenerHunting_2
       rect:
         serializedVersion: 2
         x: 48
@@ -160,71 +160,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11258a07934c11090800000000000000
-      internalID: -8065449706661588463
+      spriteID: af4bc63e05bf214d0800000000000000
+      internalID: -3165191263256529670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gardener_3
+      name: GardenerHunting_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 24
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e01e2124c0de210f0800000000000000
-      internalID: -1147594318122131186
+      spriteID: dad5b2871d9c4d2d0800000000000000
+      internalID: -3254754729180570195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gardener_4
+      name: GardenerHunting_4
       rect:
         serializedVersion: 2
         x: 24
         y: 0
         width: 24
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b8c00ac1937a45d0800000000000000
-      internalID: -3077520325357811536
+      spriteID: 3c6577cd9cf7aa1e0800000000000000
+      internalID: -2185794164170991933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gardener_5
+      name: GardenerHunting_5
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 24
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73ce62de74090ff20800000000000000
-      internalID: 3454419552788999223
+      spriteID: b7c4d64df57bd0220800000000000000
+      internalID: 2453818994200497275
       vertices: []
       indices: 
       edges: []

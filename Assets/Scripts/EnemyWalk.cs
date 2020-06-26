@@ -12,6 +12,7 @@ public class EnemyWalk : MonoBehaviour
     [SerializeField]    LayerMask   whatIsLadder;
     private             Vector2     currentVelocity;
     private             bool        LaderCheck;
+    Animator                        hunt;
 
 
 
@@ -21,11 +22,13 @@ public class EnemyWalk : MonoBehaviour
     {
         rigidBody = GetComponent<Rigidbody2D>();
         rigidBody.velocity = new Vector2(moveSpeed, 0.0f);
+        hunt = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        //Hunt(hunt);
         Vector2 currentVelocity = rigidBody.velocity;
 
         currentVelocity.x = moveSpeed;
@@ -46,7 +49,9 @@ public class EnemyWalk : MonoBehaviour
 
             rigidBody.velocity = currentVelocity;
         }
+        //Hunt(hunt);
         CheckLadders();
+        Debug.Log(moveSpeed);
 
     }
 
@@ -61,7 +66,8 @@ public class EnemyWalk : MonoBehaviour
 
     public void Hunt(bool hunt)
     {
-        if (hunt)
+        Debug.Log(hunt);
+        if (hunt == true)
             moveSpeed = 70;
         else
             moveSpeed = 65;

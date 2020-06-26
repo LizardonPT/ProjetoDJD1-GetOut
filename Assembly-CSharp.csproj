@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Ladder.cs" />
     <Compile Include="Assets\Scripts\LanternLight.cs" />
     <Compile Include="Assets\Scripts\LighterLight.cs" />
+    <Compile Include="Assets\Scripts\LvlMng.cs" />
     <Compile Include="Assets\Scripts\PickUp.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Sound.cs" />
