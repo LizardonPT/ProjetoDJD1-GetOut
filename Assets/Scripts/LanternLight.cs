@@ -51,13 +51,13 @@ public class LanternLight : MonoBehaviour
             {
                 lighton = true;
                 lantern.enabled = true;
-                SoundMng.instance.PlaySound(onSound);
+                SoundMng.instance.PlaySound(onSound, 0.5f);
             }
             else
             {
                 lighton = false;
                 lantern.enabled = false;
-                SoundMng.instance.PlaySound(offSound);
+                SoundMng.instance.PlaySound(offSound,0.5f);
             }
         }
     }

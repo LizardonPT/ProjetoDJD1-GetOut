@@ -9,6 +9,9 @@ public class EnemyWalk : MonoBehaviour
     [SerializeField]    Transform   wallDetector = null;
     [SerializeField]    float       detectionRadius = 3.0f;
     [SerializeField]    LayerMask   wallLayers;
+    [SerializeField]    LayerMask   whatIsLadder;
+    private             Vector2     currentVelocity;
+    private             bool        LaderCheck;
 
 
 
@@ -43,6 +46,7 @@ public class EnemyWalk : MonoBehaviour
 
             rigidBody.velocity = currentVelocity;
         }
+        CheckLadders();
 
     }
 
@@ -66,5 +70,40 @@ public class EnemyWalk : MonoBehaviour
     void TurnBack()
     {
         transform.rotation = transform.rotation * Quaternion.Euler(0, 180, 0);
+    }
+
+    private void CheckLadders()
+    {
+        float vertDistance = 10.0f;
+        float inputVertical;
+        float climbingSpeed = 40.0f;
+        int gooUp = UnityEngine.Random.Range(0, 1);
+
+        RaycastHit2D hitInfoUp = Physics2D.Raycast(transform.position, Vector2.up, vertDistance, whatIsLadder);
+
+        //Debug.Log(gooUp);
+        if (hitInfoUp.collider != null)
+        {
+            Debug.Log(gooUp); 
+            LaderCheck = true;
+            if (gooUp == 1)
+            {
+                inputVertical = Input.GetAxisRaw("Vertical");
+                rigidBody.velocity = new Vector2(rigidBody.velocity.x, inputVertical * climbingSpeed);
+                rigidBody.gravityScale = 0;
+
+            }
+            else
+            {
+                currentVelocity.y = 0;
+
+            }
+        }
+        else
+        {
+            rigidBody.gravityScale = 1;
+            LaderCheck = false;
+
+        }
     }
 }
