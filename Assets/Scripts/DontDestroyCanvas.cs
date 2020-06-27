@@ -2,16 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour
+public class DontDestroyCanvas : MonoBehaviour
 {
-
-    public bool[] isFull;
-    public GameObject[] slots;
-    private static Inventory instance;
+    private static DontDestroyCanvas instance;
 
     void Awake()
     {
-        if (instance == null)
+        if(instance == null)
         {
             instance = this;
             DontDestroyOnLoad(transform.gameObject);
@@ -20,6 +17,7 @@ public class Inventory : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
     }
 
     // Start is called before the first frame update
