@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\LvlMng.cs" />
     <Compile Include="Assets\Scripts\PickUp.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Porta1back.cs" />
     <Compile Include="Assets\Scripts\Sound.cs" />
     <Compile Include="Assets\Scripts\SoundMng.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

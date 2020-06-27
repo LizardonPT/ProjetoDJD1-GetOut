@@ -68,7 +68,7 @@ public class EnemyWalk : MonoBehaviour
     {
         Debug.Log(hunt);
         if (hunt == true)
-            moveSpeed = 70;
+            moveSpeed = 80;
         else
             moveSpeed = 65;
     }

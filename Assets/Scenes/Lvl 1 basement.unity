@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -833,7 +833,7 @@ GameObject:
   - component: {fileID: 811332951}
   - component: {fileID: 811332952}
   m_Layer: 0
-  m_Name: Porta
+  m_Name: Porta 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -954,7 +954,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811332946}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -217.10725, y: -63.89579, z: 0}
+  m_LocalPosition: {x: -217.10725, y: -66.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -14111,7 +14111,7 @@ PrefabInstance:
     - target: {fileID: 5915579758795220347, guid: e7973936983545a419a6d946b7f70307,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -83.9
+      value: -87.2
       objectReference: {fileID: 0}
     - target: {fileID: 5915579758795220347, guid: e7973936983545a419a6d946b7f70307,
         type: 3}
@@ -14158,10 +14158,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5915579758795220348, guid: e7973936983545a419a6d946b7f70307,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5915579758795220351, guid: e7973936983545a419a6d946b7f70307,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5915579758795220351, guid: e7973936983545a419a6d946b7f70307,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7973936983545a419a6d946b7f70307, type: 3}
