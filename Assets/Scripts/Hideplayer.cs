@@ -30,7 +30,10 @@ public class Hideplayer : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D collider)
     {
-        player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1f);
-        player.layer = 8;
+        if (collider.name == "Player")
+        {
+            player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1f);
+            player.layer = 8;
+        }
     }
 }
