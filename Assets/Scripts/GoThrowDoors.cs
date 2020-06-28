@@ -9,6 +9,8 @@ public class GoThrowDoors : MonoBehaviour
 
     Vector2 playerPos;
 
+    public AudioClip sound;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -20,6 +22,7 @@ public class GoThrowDoors : MonoBehaviour
         {
             if(Input.GetKey(KeyCode.W))
             {
+                SoundMng.instance.PlaySound(sound);
                 SceneManager.LoadScene("Biblioteca");
             }
         }
