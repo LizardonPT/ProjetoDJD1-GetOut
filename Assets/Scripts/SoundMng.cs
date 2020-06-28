@@ -46,4 +46,15 @@ public class SoundMng : MonoBehaviour
         return audioSource;
 
     }
+
+    public void HuntSound(AudioClip sound, float volume = 1)
+    {
+        AudioSource audioSource = NewSoundObject();
+        audioSource.clip = sound;
+        audioSource.volume = volume;
+        if(!audioSource.isPlaying)
+            Invoke("audioSouce.Play", audioSource.clip.length);
+        
+
+    }
 }

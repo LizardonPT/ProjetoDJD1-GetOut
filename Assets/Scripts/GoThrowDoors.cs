@@ -20,10 +20,8 @@ public class GoThrowDoors : MonoBehaviour
     {
         if(collider.name == "Player")
         {
-            Debug.Log("its touching");
             if(Input.GetKey(KeyCode.W))
             {
-                Debug.Log("its working");
                 //playerPos.transform.position = new Vector2(-150, -86);
                 SceneManager.LoadScene("Biblioteca");
             }

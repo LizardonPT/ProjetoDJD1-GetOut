@@ -142,6 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dd6f02f3d2334d4e849718e30f71026, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onSound: {fileID: 8300000, guid: 131716eb1970d774ab421b6f80551a89, type: 3}
+  offSound: {fileID: 8300000, guid: 50861b5d1e288c54599dc024cfc77ed5, type: 3}
   theObject: {fileID: 0}
   defaultOff: {fileID: 0}
   lifeTime: 180

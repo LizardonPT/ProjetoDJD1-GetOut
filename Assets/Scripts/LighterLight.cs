@@ -5,6 +5,8 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class LighterLight : MonoBehaviour
 {
+    public AudioClip onSound;
+    public AudioClip offSound;
     public GameObject theObject;
     public GameObject defaultOff;
     public float lifeTime = 180.0f;
@@ -48,12 +50,14 @@ public class LighterLight : MonoBehaviour
             lighton = true;
             lighter.enabled = true;
             deflight.enabled = false;
+            SoundMng.instance.PlaySound(onSound, 0.5f);
         }
         else
         {
             lighton = false;
             lighter.enabled = false;
             deflight.enabled = true;
+            SoundMng.instance.PlaySound(offSound, 0.5f);
         }
     }
 }

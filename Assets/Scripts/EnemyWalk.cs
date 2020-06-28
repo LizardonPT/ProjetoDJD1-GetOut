@@ -4,25 +4,33 @@ using UnityEngine;
 
 public class EnemyWalk : MonoBehaviour
 {
-
     [SerializeField]    float       moveSpeed = 65.0f;
     [SerializeField]    Transform   wallDetector = null;
     [SerializeField]    float       detectionRadius = 3.0f;
     [SerializeField]    LayerMask   wallLayers;
     [SerializeField]    LayerMask   whatIsLadder;
+    GameObject                      player;
+    [SerializeField]    LayerMask   visionLayer;
     private             Vector2     currentVelocity;
     private             bool        LaderCheck;
     Animator                        hunt;
+    AudioSource                     huntSound;
 
 
 
+    Collider2D enemyCol;
+    Collider2D playerCol;
     Rigidbody2D rigidBody;
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerCol = player.GetComponent<Collider2D>();
         rigidBody = GetComponent<Rigidbody2D>();
         rigidBody.velocity = new Vector2(moveSpeed, 0.0f);
+        enemyCol = GetComponent<Collider2D>();
         hunt = GetComponent<Animator>();
+        huntSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,11 +38,17 @@ public class EnemyWalk : MonoBehaviour
     {
         //Hunt(hunt);
         Vector2 currentVelocity = rigidBody.velocity;
+        Vector2 colCenter = playerCol.bounds.center;
+        Vector2 selfCenter = enemyCol.bounds.center;
+        Vector2 currentDirection = colCenter - selfCenter;
+        float distance = currentDirection.magnitude;
 
         currentVelocity.x = moveSpeed;
 
         rigidBody.velocity = currentVelocity;
-        if(wallDetector)
+        Checkplayer(selfCenter, currentDirection, distance, visionLayer);
+
+        if (wallDetector)
         {
             Collider2D wallCollision = Physics2D.OverlapCircle(wallDetector.position, detectionRadius, wallLayers);
 
@@ -49,7 +63,7 @@ public class EnemyWalk : MonoBehaviour
 
             rigidBody.velocity = currentVelocity;
         }
-        //Hunt(hunt);
+        
         CheckLadders();
         Debug.Log(moveSpeed);
 
@@ -64,7 +78,7 @@ public class EnemyWalk : MonoBehaviour
         }
     }
 
-    public void Hunt(bool hunt)
+    public void Hunt(Animator hunt)
     {
         Debug.Log(hunt);
         if (hunt == true)
@@ -76,6 +90,44 @@ public class EnemyWalk : MonoBehaviour
     void TurnBack()
     {
         transform.rotation = transform.rotation * Quaternion.Euler(0, 180, 0);
+    }
+
+    void Checkplayer(Vector2 selfCenter, Vector2 currentDirection, float distance, LayerMask visionLayer)
+    {
+        if(player.layer == 8)
+        {
+            var hit = Physics2D.Raycast(selfCenter, currentDirection.normalized, distance, visionLayer);
+            if (hit.collider != null)
+            {
+                float viewAngle = Vector2.Dot(transform.right, currentDirection.normalized);
+
+                if ((viewAngle > 0 || viewAngle == 0) && distance <= 100)
+                {
+                    Debug.Log("can see");
+                    hunt.SetBool("Hunt", true);
+                    //hunt.SetInteger("Hunt", 0);
+                    Hunt(hunt);
+                    //Invoke("playHuntSound", huntSound.clip.length);
+
+
+
+
+
+
+                }
+                else
+                {
+                    Debug.Log("cant see v2");
+                    hunt.SetBool("Hunt", false);
+                    Hunt(hunt);
+
+
+                    //Debug.Log(hunt.GetBool("Hunt"));
+                }
+
+            }
+        }
+        
     }
 
     private void CheckLadders()
@@ -110,6 +162,11 @@ public class EnemyWalk : MonoBehaviour
             rigidBody.gravityScale = 1;
             LaderCheck = false;
 
+        }
+
+        void playHuntSound()
+        {
+            huntSound.Play();
         }
     }
 }
