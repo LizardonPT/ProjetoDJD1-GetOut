@@ -14,7 +14,7 @@ public class EnemyWalk : MonoBehaviour
     private             Vector2     currentVelocity;
     private             bool        LaderCheck;
     Animator                        hunt;
-    AudioSource                     huntSound;
+    AudioSource                      huntSound;
 
 
 
@@ -63,7 +63,6 @@ public class EnemyWalk : MonoBehaviour
 
             rigidBody.velocity = currentVelocity;
         }
-        
         CheckLadders();
         Debug.Log(moveSpeed);
 
@@ -78,7 +77,7 @@ public class EnemyWalk : MonoBehaviour
         }
     }
 
-    public void Hunt(Animator hunt)
+    public void Hunt(bool hunt)
     {
         Debug.Log(hunt);
         if (hunt == true)
@@ -97,7 +96,7 @@ public class EnemyWalk : MonoBehaviour
         if(player.layer == 8)
         {
             var hit = Physics2D.Raycast(selfCenter, currentDirection.normalized, distance, visionLayer);
-            if (hit.collider != null)
+            if (hit.collider == null)
             {
                 float viewAngle = Vector2.Dot(transform.right, currentDirection.normalized);
 
@@ -105,27 +104,27 @@ public class EnemyWalk : MonoBehaviour
                 {
                     Debug.Log("can see");
                     hunt.SetBool("Hunt", true);
-                    //hunt.SetInteger("Hunt", 0);
-                    Hunt(hunt);
-                    //Invoke("playHuntSound", huntSound.clip.length);
-
-
-
-
-
+                    Hunt(true);
+                   
 
                 }
                 else
                 {
                     Debug.Log("cant see v2");
                     hunt.SetBool("Hunt", false);
-                    Hunt(hunt);
+                    Hunt(false);
 
 
                     //Debug.Log(hunt.GetBool("Hunt"));
                 }
 
             }
+            else
+            {
+                hunt.SetBool("Hunt", false);
+                Hunt(false);
+            }
+
         }
         
     }
@@ -164,9 +163,12 @@ public class EnemyWalk : MonoBehaviour
 
         }
 
-        void playHuntSound()
-        {
+
+    }
+    public void playHuntSound()
+    {
+        if (!huntSound.isPlaying)
             huntSound.Play();
-        }
+
     }
 }

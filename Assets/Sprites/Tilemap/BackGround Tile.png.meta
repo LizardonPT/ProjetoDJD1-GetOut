@@ -1,0 +1,967 @@
+fileFormatVersion: 2
+guid: 881031f612d2be54aa697413d25a8b7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7701285287568115264
+    second: BackGround Tile_0
+  - first:
+      213: -6713875387738885324
+    second: BackGround Tile_1
+  - first:
+      213: 8408842656519894067
+    second: BackGround Tile_2
+  - first:
+      213: -6421336872912909913
+    second: BackGround Tile_3
+  - first:
+      213: -3058605129796109143
+    second: BackGround Tile_4
+  - first:
+      213: 4056134531505365589
+    second: BackGround Tile_5
+  - first:
+      213: 4350567668713770554
+    second: BackGround Tile_6
+  - first:
+      213: -1964059083076570007
+    second: BackGround Tile_7
+  - first:
+      213: -7579766053260363595
+    second: BackGround Tile_8
+  - first:
+      213: 5476617335023135986
+    second: BackGround Tile_9
+  - first:
+      213: 8454868658756221936
+    second: BackGround Tile_10
+  - first:
+      213: -6633914195449714978
+    second: BackGround Tile_11
+  - first:
+      213: 5754641225917877100
+    second: BackGround Tile_12
+  - first:
+      213: 8242306012103431173
+    second: BackGround Tile_13
+  - first:
+      213: -8342881589332642831
+    second: BackGround Tile_14
+  - first:
+      213: 9149020621783926089
+    second: BackGround Tile_15
+  - first:
+      213: -1582368709416353158
+    second: BackGround Tile_16
+  - first:
+      213: 8985808911708619113
+    second: BackGround Tile_17
+  - first:
+      213: 3994626433202173820
+    second: BackGround Tile_18
+  - first:
+      213: -1016724971067101630
+    second: BackGround Tile_19
+  - first:
+      213: -1451413323223975531
+    second: BackGround Tile_20
+  - first:
+      213: 3534774607208167010
+    second: BackGround Tile_21
+  - first:
+      213: 843892200490430860
+    second: BackGround Tile_22
+  - first:
+      213: -4701764366042336092
+    second: BackGround Tile_23
+  - first:
+      213: -7782999290506067419
+    second: BackGround Tile_24
+  - first:
+      213: 8653212103110672091
+    second: BackGround Tile_25
+  - first:
+      213: -1715112671888410152
+    second: BackGround Tile_26
+  - first:
+      213: 4997331560049420292
+    second: BackGround Tile_27
+  - first:
+      213: -7039268096028969633
+    second: BackGround Tile_28
+  - first:
+      213: 7517712583289292060
+    second: BackGround Tile_29
+  - first:
+      213: 2338644351047693724
+    second: BackGround Tile_30
+  - first:
+      213: -7558317737734344828
+    second: BackGround Tile_31
+  - first:
+      213: -2418773518359294932
+    second: BackGround Tile_32
+  - first:
+      213: 3782948536003464770
+    second: BackGround Tile_33
+  - first:
+      213: 3425118695781232309
+    second: BackGround Tile_34
+  - first:
+      213: -4463110366278296230
+    second: BackGround Tile_35
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BackGround Tile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 16
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c97f8885d98f1590800000000000000
+      internalID: -7701285287568115264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 53.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433f59f08e583d2a0800000000000000
+      internalID: -6713875387738885324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 53.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334350a18d532b470800000000000000
+      internalID: 8408842656519894067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 53.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a988e2c224d2e6a0800000000000000
+      internalID: -6421336872912909913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 53.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acb052f6d6ad85d0800000000000000
+      internalID: -3058605129796109143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 53.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552a297bdd84a4830800000000000000
+      internalID: 4056134531505365589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ecbf09e32506c30800000000000000
+      internalID: 4350567668713770554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 43.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96477538ba24eb4e0800000000000000
+      internalID: -1964059083076570007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 43.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8f9d21fe24fc690800000000000000
+      internalID: -7579766053260363595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcecc8237ad00c40800000000000000
+      internalID: 5476617335023135986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 43.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb7fb3df3ab55570800000000000000
+      internalID: 8454868658756221936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 43.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed66ccdef2a9fe3a0800000000000000
+      internalID: -6633914195449714978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b47a0a4b79cdf40800000000000000
+      internalID: 5754641225917877100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 33.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504dd7df5ad826270800000000000000
+      internalID: 8242306012103431173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 33.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f37ea0a561283c80800000000000000
+      internalID: -8342881589332642831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 33.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945872c28c9d7fe70800000000000000
+      internalID: 9149020621783926089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a728b83ea0c4a0ae0800000000000000
+      internalID: -1582368709416353158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 33.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9618ee9a89104bc70800000000000000
+      internalID: 8985808911708619113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77b6699393cf6730800000000000000
+      internalID: 3994626433202173820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 23.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ea641960ed3e1f0800000000000000
+      internalID: -1016724971067101630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 23.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59937feb54b8bdbe0800000000000000
+      internalID: -1451413323223975531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 23.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266b6b7f6ca0e0130800000000000000
+      internalID: 3534774607208167010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 23.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8174f63c7b16bb00800000000000000
+      internalID: 843892200490430860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 23.333332
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4f478583affbeb0800000000000000
+      internalID: -4701764366042336092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522c442a16b3df390800000000000000
+      internalID: -7782999290506067419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 13.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdeb504af82661870800000000000000
+      internalID: 8653212103110672091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 13.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9f15aac12b238e0800000000000000
+      internalID: -1715112671888410152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 13.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408289da3961a5540800000000000000
+      internalID: 4997331560049420292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 13.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55f37956fe7f4e90800000000000000
+      internalID: -7039268096028969633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_29
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 13.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15417293c7445860800000000000000
+      internalID: 7517712583289292060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95fb2885a8847020800000000000000
+      internalID: 2338644351047693724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_31
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f6fce20167b1790800000000000000
+      internalID: -7558317737734344828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c821edc4ace6ed0800000000000000
+      internalID: -2418773518359294932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e021c86abbf7430800000000000000
+      internalID: 3782948536003464770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bee6978e47788f20800000000000000
+      internalID: 3425118695781232309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackGround Tile_35
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3.333333
+        width: 8
+        height: 10.666667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d5e98b4c8df02c0800000000000000
+      internalID: -4463110366278296230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
