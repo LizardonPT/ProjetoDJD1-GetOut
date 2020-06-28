@@ -63,8 +63,7 @@ public class EnemyWalk : MonoBehaviour
 
             rigidBody.velocity = currentVelocity;
         }
-        //CheckLadders();
-        Debug.Log(moveSpeed);
+        CheckLadders();
 
     }
 
@@ -79,7 +78,6 @@ public class EnemyWalk : MonoBehaviour
 
     public void Hunt(bool hunt)
     {
-        Debug.Log(hunt);
         if (hunt == true)
             moveSpeed = 80;
         else
@@ -93,10 +91,8 @@ public class EnemyWalk : MonoBehaviour
 
     void Checkplayer(Vector2 selfCenter, Vector2 currentDirection, float distance, LayerMask visionLayer)
     {
-        Debug.Log("enter1");
         if(player.layer == 8)
         {
-            Debug.Log("enter2");
             var hit = Physics2D.Raycast(selfCenter, currentDirection.normalized, distance, visionLayer);
             if (hit.collider == null)
             {
@@ -104,7 +100,6 @@ public class EnemyWalk : MonoBehaviour
 
                 if ((viewAngle > 0 || viewAngle == 0) && distance <= 100)
                 {
-                    Debug.Log("can see");
                     hunt.SetBool("Hunt", true);
                     Hunt(true);
                    
@@ -112,12 +107,10 @@ public class EnemyWalk : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("cant see v2");
                     hunt.SetBool("Hunt", false);
                     Hunt(false);
 
 
-                    //Debug.Log(hunt.GetBool("Hunt"));
                 }
 
             }
@@ -140,13 +133,15 @@ public class EnemyWalk : MonoBehaviour
 
         RaycastHit2D hitInfoUp = Physics2D.Raycast(transform.position, Vector2.up, vertDistance, whatIsLadder);
 
-        //Debug.Log(gooUp);
+        Debug.Log("stop1");
         if (hitInfoUp.collider != null)
         {
+            Debug.Log("stop2");
             Debug.Log(gooUp); 
             LaderCheck = true;
             if (gooUp == 1)
             {
+                Debug.Log("stop3");
                 inputVertical = Input.GetAxisRaw("Vertical");
                 rigidBody.velocity = new Vector2(rigidBody.velocity.x, inputVertical * climbingSpeed);
                 rigidBody.gravityScale = 0;
@@ -154,12 +149,14 @@ public class EnemyWalk : MonoBehaviour
             }
             else
             {
+                Debug.Log("stop4");
                 currentVelocity.y = 0;
 
             }
         }
         else
         {
+            Debug.Log("stop5");
             rigidBody.gravityScale = 1;
             LaderCheck = false;
 
