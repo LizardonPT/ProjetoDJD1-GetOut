@@ -4,26 +4,33 @@ using UnityEngine;
 
 public class Hideplayer : MonoBehaviour
 {
-    SpriteRenderer  player;
-    GameObject      playerLayer;
+    GameObject  player;
+    
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<SpriteRenderer>();
-        playerLayer = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player");
+        
     }
 
     public void OnTriggerStay2D(Collider2D collider)
     {
-        if (collider.name == "Player")
+        if (collider.name == "Player" && Input.GetKey(KeyCode.W))
         {
-            if (Input.GetKey(KeyCode.W))
-            {
-                Debug.Log("help");
-                player.color = new Color(1, 1, 1, 0.8f);
-                playerLayer.layer = 10; 
-
-            }
+            player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.7f);
+            player.layer = 10;
         }
+
+        else if (collider.name == "Player" && Input.GetKey(KeyCode.S))
+        {
+            player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1f);
+            player.layer = 0;
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D collider)
+    {
+        player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1f);
+        player.layer = 0;
     }
 }

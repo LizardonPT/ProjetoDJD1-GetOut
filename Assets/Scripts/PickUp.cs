@@ -13,7 +13,6 @@ public class PickUp : MonoBehaviour
     void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
-        DontDestroyOnLoad(itemButton);
     }
 
     // Update is called once per frame

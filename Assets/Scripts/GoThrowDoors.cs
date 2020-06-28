@@ -7,14 +7,12 @@ public class GoThrowDoors : MonoBehaviour
 {
     GameObject player;
 
-    //Rigidbody2D playerPos;
-
     Vector2 playerPos;
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        playerPos = player.transform.position;//player.GetComponent<Rigidbody2D>();
+        playerPos = player.transform.position;
     }
     public void OnTriggerStay2D(Collider2D collider)
     {
@@ -22,11 +20,8 @@ public class GoThrowDoors : MonoBehaviour
         {
             if(Input.GetKey(KeyCode.W))
             {
-                //playerPos.transform.position = new Vector2(-150, -86);
                 SceneManager.LoadScene("Biblioteca");
             }
-            //Debug.Log("its working");
-            //SceneManager.LoadScene("Biblioteca");
         }
     }
 
