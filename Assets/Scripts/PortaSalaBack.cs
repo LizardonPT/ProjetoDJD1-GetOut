@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Porta1Back : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     GameObject player;
 

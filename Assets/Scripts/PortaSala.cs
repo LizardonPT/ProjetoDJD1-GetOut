@@ -3,23 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Porta1Back : MonoBehaviour
+public class PortaSala : MonoBehaviour
 {
     GameObject player;
 
-    // Start is called before the first frame update
-    void Start()
+    Vector2 playerPos;
+
+    private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        playerPos = player.transform.position;
     }
-
     public void OnTriggerStay2D(Collider2D collider)
     {
-        if (collider.name == "Player")
+        if(collider.name == "Player")
         {
-            if (Input.GetKey(KeyCode.W))
+            if(Input.GetKey(KeyCode.W))
             {
-                SceneManager.LoadScene("Lvl 1 basement");
+                SceneManager.LoadScene("Sala de Estar");
             }
         }
     }
