@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyWalk : MonoBehaviour
 {
@@ -133,15 +134,11 @@ public class EnemyWalk : MonoBehaviour
 
         RaycastHit2D hitInfoUp = Physics2D.Raycast(transform.position, Vector2.up, vertDistance, whatIsLadder);
 
-        Debug.Log("stop1");
         if (hitInfoUp.collider != null)
         {
-            Debug.Log("stop2");
-            Debug.Log(gooUp); 
             LaderCheck = true;
             if (gooUp == 1)
             {
-                Debug.Log("stop3");
                 inputVertical = Input.GetAxisRaw("Vertical");
                 rigidBody.velocity = new Vector2(rigidBody.velocity.x, inputVertical * climbingSpeed);
                 rigidBody.gravityScale = 0;
@@ -149,21 +146,17 @@ public class EnemyWalk : MonoBehaviour
             }
             else
             {
-                Debug.Log("stop4");
                 currentVelocity.y = 0;
-
             }
         }
         else
         {
-            Debug.Log("stop5");
             rigidBody.gravityScale = 1;
             LaderCheck = false;
 
         }
-
-
     }
+
     public void playHuntSound()
     {
         if (!huntSound.isPlaying)

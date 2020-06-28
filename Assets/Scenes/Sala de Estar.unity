@@ -7012,7 +7012,7 @@ GameObject:
   - component: {fileID: 808975744}
   - component: {fileID: 808975743}
   m_Layer: 0
-  m_Name: Porta 1
+  m_Name: Porta Sala Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7030,6 +7030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb36f76bc62fe5f4e85b09288ce36f12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 716492ab930b5474c83585ad9edf017a, type: 3}
 --- !u!61 &808975744
 BoxCollider2D:
   m_ObjectHideFlags: 0

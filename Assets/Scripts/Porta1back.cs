@@ -7,6 +7,8 @@ public class Porta1Back : MonoBehaviour
 {
     GameObject player;
 
+    public AudioClip sound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,7 @@ public class Porta1Back : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.W))
             {
+                SoundMng.instance.PlaySound(sound);
                 SceneManager.LoadScene("Lvl 1 basement");
             }
         }

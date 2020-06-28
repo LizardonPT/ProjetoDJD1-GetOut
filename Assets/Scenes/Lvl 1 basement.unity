@@ -345,6 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca52d3fe1b59af40af88af22fe02b06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 716492ab930b5474c83585ad9edf017a, type: 3}
 --- !u!61 &322195989
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1225,6 +1226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 989a6acddb0cb0a4ab064d54de458d51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 716492ab930b5474c83585ad9edf017a, type: 3}
 --- !u!114 &811332953
 MonoBehaviour:
   m_ObjectHideFlags: 0

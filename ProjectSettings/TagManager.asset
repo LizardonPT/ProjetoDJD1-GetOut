@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pilha
   - GM
+  - Enemy
   layers:
   - Default
   - TransparentFX
