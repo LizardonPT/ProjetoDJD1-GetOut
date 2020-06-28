@@ -24,13 +24,13 @@ public class Hideplayer : MonoBehaviour
         else if (collider.name == "Player" && Input.GetKey(KeyCode.S))
         {
             player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1f);
-            player.layer = 0;
+            player.layer = 8;
         }
     }
 
     public void OnTriggerExit2D(Collider2D collider)
     {
         player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1f);
-        player.layer = 0;
+        player.layer = 8;
     }
 }

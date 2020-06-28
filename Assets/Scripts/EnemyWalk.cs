@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyWalk : MonoBehaviour
 {
-    [SerializeField]    float       moveSpeed = 65.0f;
+    [SerializeField]   float       moveSpeed = 65.0f;
     [SerializeField]    Transform   wallDetector = null;
     [SerializeField]    float       detectionRadius = 3.0f;
     [SerializeField]    LayerMask   wallLayers;
@@ -63,7 +63,7 @@ public class EnemyWalk : MonoBehaviour
 
             rigidBody.velocity = currentVelocity;
         }
-        CheckLadders();
+        //CheckLadders();
         Debug.Log(moveSpeed);
 
     }
@@ -93,8 +93,10 @@ public class EnemyWalk : MonoBehaviour
 
     void Checkplayer(Vector2 selfCenter, Vector2 currentDirection, float distance, LayerMask visionLayer)
     {
+        Debug.Log("enter1");
         if(player.layer == 8)
         {
+            Debug.Log("enter2");
             var hit = Physics2D.Raycast(selfCenter, currentDirection.normalized, distance, visionLayer);
             if (hit.collider == null)
             {
