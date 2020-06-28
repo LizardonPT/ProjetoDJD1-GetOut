@@ -7,6 +7,7 @@ TagManager:
   - Pilha
   - GM
   - Enemy
+  - SalaKey
   layers:
   - Default
   - TransparentFX

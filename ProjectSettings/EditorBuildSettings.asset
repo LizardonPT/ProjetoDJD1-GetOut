@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sala de Estar.unity
     guid: b045602db4ebaab418f2d1634ef462b9
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: ee8bb4367b247da4f92caf4dbb5930a4
   m_configObjects: {}

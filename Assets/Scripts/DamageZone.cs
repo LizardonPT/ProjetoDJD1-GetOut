@@ -17,6 +17,7 @@ public class DamageZone : MonoBehaviour
     {
         contactFilter = new ContactFilter2D();
         contactFilter.SetLayerMask(damageMask);
+        inventory = GameObject.Find("Canvas");
     }
 
     // Update is called once per frame
@@ -28,6 +29,7 @@ public class DamageZone : MonoBehaviour
         if(nCollisions > 0)
         {
             SceneManager.LoadScene("Game Over");
+            Destroy(inventory);
         }
     }
 }

@@ -16,6 +16,12 @@ public class PortaSala : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         playerPos = player.transform.position;
     }
+
+    void Update()
+    {
+        
+    }
+
     public void OnTriggerStay2D(Collider2D collider)
     {
         if(collider.name == "Player")
